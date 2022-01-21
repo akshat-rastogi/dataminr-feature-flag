@@ -9,7 +9,7 @@
     font-size: 1.2rem;
 }
 .dropDownListContainer{
-    position: fixed;
+    position: absolute;
 }
 .dropDownHeader:after{
     content: '∨';

@@ -1,8 +1,14 @@
-.individual div .input-group,
-.group, 
+.individual div .input-group, 
 .toggle-group, .toggle-group div .input-group {
     border-radius: 0.4rem;
-    overflow: hidden;
+}
+.group div:first-child .input-group{ 
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+}
+.group div:last-child .input-group{ 
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
 }
 .toggle-group{
     background: rgb(71, 71, 71);
