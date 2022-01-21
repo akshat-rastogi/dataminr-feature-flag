@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputGroup should render my component 1`] = `
+Array [
+  <div
+    className="col-md-12"
+  >
+    <div
+      className="input-group"
+    >
+      <div
+        className="display-flex"
+      >
+        <span
+          className="bullet"
+        />
+        <span
+          className="label"
+        >
+          Alert Manager
+        </span>
+        <div
+          className="input-addon"
+        >
+          <ToggleSwitch
+            disabled={false}
+            handleToggle={[Function]}
+            id="Alerts.AlertManager"
+            name="Alerts.AlertManager"
+            value={true}
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
