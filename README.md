@@ -1,4 +1,4 @@
-# dataminr-feature-flag
+# feature-flag
 
 
 ## Demo
